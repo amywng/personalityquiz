@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>Amy's Personality Quiz</title>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- import the webpage's stylesheet -->
+	<link rel="stylesheet" href="style.css">
+
+	<!-- import the webpage's javascript file -->
+	<script src="script.js" defer>
+
+	</script>
+</head>
+
+<body>
+
+	<header>
+		<h1>Are you peanut butter or jelly?</h1>
+		<p>PB&J? Nope. PB|J? That's better. Just a little coding humor. Anyways, pick out some home decor and I'll tell you whether you are peanut butter or jelly.</p>
+	</header>
+
+	<main>
+
+		<h2>First, you have to pick a house for all your decor to go in!</h2>
+		<div class="question">
+
+			<div class="answer-choice">
+				<img src="assets/modern.jpg" alt="A modern, bold, squarish house.">
+        <br>
+        <button id="q1a1" class="house choice">Modern and bold</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/cottage.jpg" alt="A charming, cottage-style house.">
+        <br>
+        <button id="q1a2" class="house choice">Charming and quaint</button>
+      </div>
+
+    </div> 
+    
+    <h2>Now pick some furnishings.</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/yellowcouch.jpg" alt="A warm, welcoming yellow couch.">
+        <br>
+        <button id="q2a1" class="couch choice">Yellow couch</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/greencouch.jpg" alt="A sleek, velvety green couch.">
+        <br>
+        <button id="q2a2" class="couch choice">Green couch</button>
+      </div>
+
+    </div> 
+    
+    <h2>Pick a clock. Tick tock.</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/largeclock.jpg" alt="A large clock with hours indicated by giant numbers.">
+        <br>
+        <button id="q3a1" class="clock choice">Large clock</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/smallclock.jpg" alt="A small alarm clock basking in the sun.">
+        <br>
+        <button id="q3a2" class="clock choice">Small clock</button>
+      </div>
+
+    </div> 
+    
+    <h2>You need some O2! Pick a house plant.</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/aloe.jpg" alt="A nice aloe plant in a pot.">
+        <br>
+        <button id="q4a1" class="plant choice">Aloe</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/bigleaves.jpg" alt="An interior with a large house plant with big leaves in the corner.">
+        <br>
+        <button id="q4a2" class="plant choice">Big leaves</button>
+      </div>
+
+    </div> 
+    
+    <h2>Finally, pick some art.</h2>
+    <div class="question">
+
+      <div class="answer-choice">
+        <img src="assets/boldart.jpg" alt="A square, yellow, abstract painting with vibrant colors.">
+        <br>
+        <button id="q5a1" class="art choice">Square yellow painting</button>
+      </div>
+
+      <div class="answer-choice">
+        <img src="assets/faded.jpg" alt="A pastel sketch of a scene by a lake.">
+        <br>
+        <button id="q5a2" class="art choice">Pastel sketch</button>
+      </div>
+
+    </div> 
+    <!-- could add: mirrors -->
+    <button id="showResult">Am I peanut butter or jelly?</button>
+    <h2 id="result">Your result is...</h2>
+    <p id="explanation"></p>
+    <button id="restart">Restart</button>
+  </main>
+  </body>
+</html>

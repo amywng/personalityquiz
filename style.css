@@ -1,0 +1,95 @@
+/* STYLE SECTIONING TAGS */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: "Benton Sans", "Helvetica Neue", helvetica, arial, sans-serif;
+  margin: 2em;
+  background-color: #ddc19d;
+}
+header {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 10%;
+  margin-left: 10%;
+  text-align: center;
+}
+
+main {
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 20%;
+  margin-left: 20%;
+  text-align: center; 
+}
+/* STYLE TEXT */
+h1 {
+  font-style: italic;
+  font-size: 40px;
+  color: #ffffff;
+  margin-bottom: .5em;
+}
+
+h2 {
+  margin-top: 1.5em; 
+  color: #8e2580;
+}
+
+p {
+  font-size: 20px;
+}
+h2 #result {
+  color: #white;
+  font-size: 30px;
+  margin-bottom: 2em;
+}
+
+#showResult {
+  margin-top: 1.5em;
+  border-style: solid;
+  border-color: #FFED66;
+}
+
+#restart {
+  border-style: solid;
+  border-color: #d7759c;
+}
+/* STYLE FLEX CONTAINER */
+.question {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+  margin-right: 2%;
+  margin-left: 2%;
+}
+  
+/* STYLE FLEX ITEM */
+.answer-choice {
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+/* STYLE IMAGES */
+.answer-choice img {
+  height: 10em;
+}
+/* STYLE BUTTON */
+button { 
+  width: 100%;
+  margin-top: 1em;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 3px;
+  padding-right: 3px;
+  background-color: #f1adff;
+  border-style: none;
+  font-size: 20px;
+  cursor: pointer;
+  border: solid white;
+}
+
+button:hover {
+  border: solid purple;
+  background-color: #f6ccff;
+}
